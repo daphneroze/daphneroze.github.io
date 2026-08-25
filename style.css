@@ -3,24 +3,29 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #ffffff;
+  background-color: #F7F2EC;
   color: #07203F;
 }
 
 header {
   background-color: #EBDED4;
-  padding: 60px 20px 40px;
+  padding: 60px 20px 80px;
+  min-height: 75vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 header .content-wrap {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 40px auto 0;
+  text-align: left;
 }
 
 nav {
   max-width: 700px;
-  margin: 0 auto 40px;
-  padding: 20px 20px 0;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 nav a {
@@ -53,7 +58,7 @@ header img {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 main {
