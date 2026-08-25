@@ -171,3 +171,23 @@ main {
   font-size: 0.85em;
   font-weight: 700;
 }
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-character {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  height: 90%;
+  max-height: 500px;
+  width: auto;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .hero-character {
+    display: none;
+  }
+}
