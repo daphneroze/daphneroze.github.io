@@ -173,19 +173,16 @@ main {
 }
 header {
   position: relative;
-  overflow: hidden;
 }
 
 .hero-character {
   position: absolute;
-  bottom: 0;
+  bottom: -60px;
   right: 40px;
-  height: 90%;
-  max-height: 500px;
+  height: 320px;
   width: auto;
-  z-index: 1;
+  z-index: 2;
 }
-
 @media (max-width: 800px) {
   .hero-character {
     display: none;
