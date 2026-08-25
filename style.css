@@ -188,9 +188,9 @@ header {
     display: none;
   }
 }
-.hero-logos {
+.hero-logo {
   position: absolute;
-  bottom: 20px;
+  bottom: -10px;
   left: 40px;
   height: 70px;
   width: auto;
