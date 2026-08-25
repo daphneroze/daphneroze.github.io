@@ -188,7 +188,7 @@ header {
     display: none;
   }
 }
-.hero-logo {
+.hero-logos {
   position: absolute;
   bottom: -10px;
   left: 40px;
@@ -198,7 +198,7 @@ header {
 }
 
 @media (max-width: 800px) {
-  .hero-logo {
+  .hero-logos {
     display: none;
   }
 }
