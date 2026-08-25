@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -17,13 +17,40 @@ header {
 }
 
 header .content-wrap {
-  max-width: 700px;
+  max-width: 900px;
   margin: 40px auto 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.headshot {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #F7F2EC;
+  box-shadow: 0 8px 24px rgba(2, 0, 13, 0.15);
+  flex-shrink: 0;
+}
+
+.bio-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #A65E46;
+  margin-bottom: 8px;
 }
 
 nav {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -32,7 +59,7 @@ nav a {
   margin-right: 20px;
   text-decoration: none;
   color: #02000D;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav a:hover {
@@ -40,8 +67,10 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 2em;
+  font-family: Georgia, serif;
+  font-size: 2.2em;
   margin-bottom: 10px;
+  margin-top: 0;
   color: #02000D;
 }
 
@@ -53,16 +82,8 @@ a:hover {
   color: #D9AA90;
 }
 
-header img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
 main {
-  max-width: 700px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
 }
