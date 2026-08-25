@@ -4,8 +4,8 @@ body {
   margin: 60px auto;
   padding: 0 20px;
   line-height: 1.6;
-  background-color: #d8d8d8;
-  color: #444;
+  background-color: #EBDED4;
+  color: #07203F;
 }
 
 nav {
@@ -15,26 +15,26 @@ nav {
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #333;
+  color: #02000D;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #000;
+  color: #A65E46;
 }
 
 h1 {
   font-size: 2em;
   margin-bottom: 10px;
-  color: #333;
+  color: #02000D;
 }
 
 a {
-  color: #333;
+  color: #A65E46;
 }
 
 a:hover {
-  color: #000;
+  color: #D9AA90;
 }
 
 header img {
