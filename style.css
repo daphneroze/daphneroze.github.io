@@ -238,13 +238,21 @@ header {
   background-color: #A65E46;
   color: #fff;
 }
+.tab-banner {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  background-color: #F7F2EC;
+  padding: 8px 10px 0;
+  border-radius: 4px 4px 0 0;
+  z-index: 3;
+}
 
-@media (max-width: 800px) {
-  .folder-tabs {
-    position: static;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
+.folder-tabs {
+  display: flex;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
 }
 .header-home {
   background-color: #EBDED4;
