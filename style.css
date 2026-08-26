@@ -225,20 +225,18 @@ header {
 }
 
 .tab-1 {
-  background-color: #A65E46;
-}
-
-.tab-2 {
-  background-color: #D9AA90;
+  background-color: #EBDED4;
   color: #02000D;
 }
 
-.tab-3 {
+.tab-2 {
   background-color: #07203F;
+  color: #fff;
 }
 
-.tab:hover {
-  filter: brightness(1.1);
+.tab-3 {
+  background-color: #A65E46;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
@@ -247,4 +245,15 @@ header {
     justify-content: center;
     margin-bottom: 20px;
   }
+}
+.header-home {
+  background-color: #EBDED4;
+}
+
+.header-writing {
+  background-color: #E4E9F0;
+}
+
+.header-cv {
+  background-color: #F1E1D9;
 }
