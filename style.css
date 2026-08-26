@@ -14,6 +14,7 @@ header {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 header .content-wrap {
@@ -171,23 +172,7 @@ main {
   font-size: 0.85em;
   font-weight: 700;
 }
-header {
-  position: relative;
-}
 
-.hero-character {
-  position: absolute;
-  bottom: -60px;
-  right: 40px;
-  height: 320px;
-  width: auto;
-  z-index: 2;
-}
-@media (max-width: 800px) {
-  .hero-character {
-    display: none;
-  }
-}
 .hero-logos {
   position: absolute;
   bottom: -120px;
@@ -201,67 +186,4 @@ header {
   .hero-logos {
     display: none;
   }
-}
-.folder-tabs {
-  position: absolute;
-  top: 0;
-  right: 40px;
-  display: flex;
-  gap: 6px;
-  max-width: none;
-  margin: 0;
-  padding: 0;
-  z-index: 3;
-}
-
-.tab {
-  padding: 14px 22px;
-  border-radius: 10px 10px 0 0;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 0.9em;
-  color: #fff;
-  box-shadow: 0 -3px 8px rgba(2, 0, 13, 0.1);
-}
-
-.tab-1 {
-  background-color: #EBDED4;
-  color: #02000D;
-}
-
-.tab-2 {
-  background-color: #07203F;
-  color: #fff;
-}
-
-.tab-3 {
-  background-color: #A65E46;
-  color: #fff;
-}
-.tab-banner {
-  position: absolute;
-  top: 0;
-  right: 40px;
-  background-color: #F7F2EC;
-  padding: 8px 10px 0;
-  border-radius: 4px 4px 0 0;
-  z-index: 3;
-}
-
-.folder-tabs {
-  display: flex;
-  gap: 6px;
-  margin: 0;
-  padding: 0;
-}
-.header-home {
-  background-color: #EBDED4;
-}
-
-.header-writing {
-  background-color: #E4E9F0;
-}
-
-.header-cv {
-  background-color: #F1E1D9;
 }
