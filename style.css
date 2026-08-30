@@ -187,3 +187,40 @@ main {
     display: none;
   }
 }
+.writing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.writing-item {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EBDED4;
+}
+
+.writing-item:last-child {
+  border-bottom: none;
+}
+
+.writing-item h2 {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  color: #02000D;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.writing-item p {
+  margin: 0 0 12px;
+}
+
+.read-link {
+  font-weight: 700;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #A65E46;
+}
+
+.read-link:hover {
+  color: #D9AA90;
+}
