@@ -258,47 +258,43 @@ main {
   color: #D9AA90;
 }
 footer {
-  background-color: #F7F2EC;
+  background-color: #07203F;
+  color: #EBDED4;
   padding: 40px 20px;
   margin-top: 60px;
-  border-top: 1px solid #EBDED4;
 }
 
 .footer-content {
   max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .footer-name {
-  font-family: 'Lato', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
-  font-size: 0.9em;
-  color: #02000D;
-  margin: 0 0 10px;
+  margin: 0;
 }
 
 .footer-links {
   display: flex;
-  justify-content: center;
   gap: 20px;
-  margin-bottom: 10px;
 }
 
 .footer-links a {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 0.9em;
-  color: #02000D;
-  text-decoration: none;
+  color: #EBDED4;
 }
 
 .footer-links a:hover {
-  color: #A65E46;
+  color: #D9AA90;
 }
 
 .footer-copy {
   margin: 0;
   font-size: 0.85em;
-  color: #A65E46;
+  color: #D9AA90;
 }
