@@ -257,3 +257,44 @@ main {
 .read-link:hover {
   color: #D9AA90;
 }
+footer {
+  background-color: #07203F;
+  color: #EBDED4;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-name {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #EBDED4;
+}
+
+.footer-links a:hover {
+  color: #D9AA90;
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 0.85em;
+  color: #D9AA90;
+}
