@@ -56,16 +56,7 @@ nav {
   padding: 0 20px;
 }
 
-nav a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #02000D;
-  font-weight: 700;
-}
 
-nav a:hover {
-  color: #A65E46;
-}
 
 h1 {
   font-family: Georgia, serif;
@@ -74,15 +65,57 @@ h1 {
   margin-top: 0;
   color: #02000D;
 }
-
 a {
   color: #A65E46;
+  text-decoration: none;
+  position: relative;
+}
+
+a:not(nav a)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1.5px;
+  background-color: #A65E46;
+  transition: width 0.25s ease;
+}
+
+a:not(nav a):hover::after {
+  width: 100%;
 }
 
 a:hover {
   color: #D9AA90;
 }
 
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #02000D;
+  font-weight: 700;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #A65E46;
+  transition: width 0.25s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #A65E46;
+}
 main {
   max-width: 900px;
   margin: 40px auto;
